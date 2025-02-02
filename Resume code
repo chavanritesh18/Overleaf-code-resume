@@ -1,0 +1,384 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+%----------HEADING----------
+
+
+
+\vspace{-1pt}
+\begin{center}
+    
+% \end{center}
+
+ % \begin{figure}
+ %     \centering
+ %     \includegraphics[width=0.2\linewidth]{linked in dp2.jpg}
+    
+ % \end{figure}
+
+
+ 
+
+
+    {\Huge \scshape Ritesh Chavan} \\ \vspace{1pt}
+    Mangalwedha, Solapur , DOB - 08/08/2003 \\ \vspace{1pt}
+    \small \href{tel:#}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-7066892492} ~} \href{mailto:riteshchavan058@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{riteshchavan058@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/ritesh-chavan-one8/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin}}  ~
+    \href{https://github.com/chavanritesh18}{\raisebox{-0.2\height}\faGithub\ \underline{Github}} ~
+    % \href{}{\raisebox{-0.2\height}{\includegraphics[height=0.3cm, width=0.3cm]{codeforces.jpg}}\ \underline{Codeforces}} ~
+    % \vspace{-8pt}
+   % \href{https://www.hackerrank.com/profile/chavanritesh322}{\raisebox{-0.1\height}\faHackerrank\ \underline{H.Rank}} ~
+    \href{https://www.geeksforgeeks.org/user/lostboi/}{\raisebox{-0.2\height}{\includegraphics[height=0.3cm, width=0.3cm]{gfg (2).png}}\ \underline{GeeksforGeeks}} ~
+    \href{https://leetcode.com/u/the_ritesh/}{\raisebox{-0.2\height}{\includegraphics[height=0.3cm, width=0.3cm]{leetcode (2).png}}\ \underline{LeetCode}} ~
+    
+    \vspace{-15pt}
+\end{center}
+ \vspace{0.1mm}
+
+
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rajarambapu Institute of Technology}{ 2022 --  2025}
+      {B.Tech - Computer Science and Information Technology - \textbf{CGPA} - \textbf{8.13}}{Islampur, Maharashtra}
+  \resumeSubHeadingListEnd
+ \vspace{-9pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Fabtech Technical Campus}{ 2019 --  2022}
+      {Diploma -  \textbf{89.42\%}}{Sangola, Maharashtra}
+  \resumeSubHeadingListEnd
+
+
+%------RELEVANT COURSEWORK-------
+% \section{COURSEWORK / SKILLS}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-2pt, parsep=5pt]
+%                 \item Data Structures \& Algorithms
+%                 \item Operating Systems
+%                 \item Software Engineering
+%                 \item Database Management System (DBMS)
+%                \item Prompt Engineering
+%                 \item OOPS Concept
+%                 \item Web Development
+%                 % \item Manual Testing
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{}{\textbf{\large{\underline{Youtube Clone}}} \href{https://youtube-secret-agents.netlify.app/}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{HTML, JavaScript, React, Tailwind Css}}}{ 2023}
+           \resumeItemListStart
+            \resumeItem {\normalsize {This user-friendly YouTube clone features playback controls, video search with suggestions, and a fully responsive design. It supports all devices and includes both light and dark modes.}}
+            % \resumeItem{\normalsize{User can search the videos in the search bar and they will get suggested video lists too.}}
+            \resumeItem{\normalsize{This clone is fully responsive for all type of devices with light and dark mode feature.}}
+            
+            
+          \resumeItemListEnd
+          \vspace{-17pt}
+         
+      \resumeProjectHeading
+          {\href{}{\textbf{\large{\underline{GitConnect}}} \href{https://github-mern-app-erb0.onrender.com/}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{React, NodeJS, MongoDB, ExpressJS, Passport JS}}}{ 2024}
+         \resumeItemListStart
+            \resumeItem{\normalsize{GitConnect is the platform where users can search GitHub users, rank repos by stars, forks, and recent,discover popular repos across languages.}}
+            \resumeItem{\normalsize{Implemented log in and out seamlessly using GitHub account for a secure and easy sign-in experience.}}
+            \resumeItem{\normalsize{Users can view detailed user profiles, likedby profiles, and track engagement with GitHub enthusiasts..}}
+            % \resumeItem{\normalsize{ Designed .}}
+            
+          \resumeItemListEnd 
+          \vspace{-17pt}
+         
+          \resumeProjectHeading
+          {\href{https://prep-smart-io.vercel.app/}{\textbf{\large{\underline{PrepStart-IO}}} \href{https://prep-smart-io.vercel.app/}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{ReactJS, Clerk, Tailwind Css, Drizzle ORM, Neon Database}}}{2024}
+           \resumeItemListStart
+            \resumeItem{\normalsize{Developed fullstack web application using nextjs, where user can give the mock interview .}}
+            \resumeItem{\normalsize{Implemented social and email password authentication using clerk. Users can login and enter their job details,allow camera and microphone and start practicing the interview questions.}}
+            \resumeItem{\normalsize{Developed features such as AI-generated interview questions, speech-to-text conversion, and recording user responses and gives feedback based on their response, leveraging cutting-edge AI technology}} 
+          \resumeItemListEnd 
+         
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+%
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+% \vspace{-11pt}
+  \resumeSubHeadingListStart
+
+
+    \resumeSubheading
+      {Starktech Ventures Private Limited  \href{https://drive.google.com/file/d/1jq87BYJHZ3E-75vj1IOrcFz4GO_yLaD7/view?usp=drive_link}{\raisebox{-0.1\height}\faExternalLink }}{Aug/2023 -- Sept/2023}
+      {\underline{Web Developer Trainee (Intern)}}{Islampur, Sangli}
+      \resumeItemListStart
+        \resumeItem{\normalsize{Collaborated on the development of the website's frontend using React.js and JavaScript, ensuring a seamless 
+ user experience.}}
+  \resumeItem{\normalsize{Actively participated in code reviews, offering constructive feedback to enhance code quality and maintain best 
+practices. }}
+ 
+      \resumeItemListEnd  
+\vspace{-0.7pt}
+   \resumeSubheading
+      {IIT Jodhpur \href{https://drive.google.com/file/d/1mN9eRwKC2jHz77XsOZvpV_CjX6zvO93r/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink }}{Feb/2024 -- Apr/2024 \vspace{-0.7pt}}
+      {\underline{Intern}}{Remote}
+      \resumeItemListStart
+        \resumeItem{\normalsize{Contributed to the 'Developing Indian Multi-lingual Aggression Dataset' project by annotating texts to indetify aggressive behaviour in various indian languages.}}
+        % \vspace{-1pt}
+      \resumeItemListEnd
+      % \vspace{-0.7pt}
+      \vspace{-7pt}
+  \resumeSubHeadingListEnd
+% \vspace{-16pt}
+%-----------PROGRAMMING SKILLS-----------
+
+\section{TECHNICAL SKILLS}
+\vspace{-3pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, Java, C, C++, HTML, JavaScript, SQL}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Replit,  Pycharm, Intellij Idea }} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux, CSS , ReactJS, NodeJS, ExpressJS, MongoDB, Figma , Tailwind, Git, GitHub }} \\
+    }}
+    %  \textbf{\normalsize{CourseWork: }}{\normalsize{Data Structure & Algorithms , Operating System , DBMS , Software Engineering , OOPS}} \\
+    % }}
+ \end{itemize}
+ \vspace{-10pt}
+
+
+
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Smart India Hackathon (SIH) 2024 Finalist }{DEC/2024}{{\underline{Team Leader}}}{Visakhapatnam}
+            \resumeItemListStart
+                \resumeItem{\normalsize{Led a team to the finals, showcasing strong leadership and innovative problem-solving abilities}}
+                \resumeItem{\normalsize{Coordinated project ideation, development, and presentation, ensuring effective collaboration and timely delivery of objectives}}
+            \resumeItemListEnd
+
+              \resumeSubheading{CESA }{Feb/2022 -- May/2022}{\underline{President}}{Fabtech Technical Campus}
+            \resumeItemListStart
+                \resumeItem{\normalsize{Organized State Level Events. }}
+                \resumeItem{\normalsize{Effectively coordinated diverse activities, showcasing strong leadership and event management abilities}}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ \vspace{-13pt}
+ 
+ %-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+
+\vspace{2pt}
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://drive.google.com/file/d/1upNXW8-hEkkR4vtBVzuabIc7SkaaV_AG/view?usp=drive_link}{Fullstack Developement by Unacademy}} \hspace{0.7cm}
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://drive.google.com/file/d/1-CKiVd_j5I9yWUiAwfw6xlEcKFmmpOvD/view}{Java - Udemy}} \hspace{0.7cm}
+$\sbullet[.75] \hspace{0.2cm}${\href{https://drive.google.com/file/d/1BMd2jsLSroE6vpMLH1EgIgZZqgchvs9E/view?usp=sharing} {ChatGPT-4.0}}\hspace{1cm}
+$\sbullet[.75] \hspace{0.2cm}${\href{https://drive.google.com/file/d/1v48LoPVGKv0gC82zM3N6yZf9v_UL9wNo/view?usp=sharing} {Figma}}\hspace{1.2cm}
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://drive.google.com/file/d/1EClmhaL3EYNYBTpkoBmDiye1rVb104_5/view?usp=sharing}{SQL}}
+\vspace{-5pt}
+$\sbullet[.75] \hspace{0.2cm}${\href{https://drive.google.com/file/d/1mmm8L5EiEWL9RdNaal3avDLIwTreV5oq/view?usp=sharing}{Git and Github}} \hspace{0.7cm}
+$\sbullet[.75] \hspace{0.2cm}${\href{https://drive.google.com/file/d/1Xo6PH3CrchYoqnDUU0sRSixJWxbvOSha/view?usp=sharing}{Linux}} \hspace{0.6cm}
+$\sbullet[.75] \hspace{0.2cm}${\href{https://drive.google.com/file/d/1b4MZmQ_eTTkSds-Hs6Mgfli7hAbHA9Y2/view?usp=sharing}{Python}} \hspace{0.5cm}
+$\sbullet[.75] \hspace{0.2cm}${\href{https://drive.google.com/file/d/1TYENE-nQX9ffJKONJqgDumSQSzMottbU/view?usp=sharing}{C++}} \hspace{0.7cm}
+$\sbullet[.75] \hspace{0.2cm}${\href{https://drive.google.com/file/d/1qLqEazbZb96RLYJTe1O38eTs16Xx0dcE/view?usp=sharing}{DSA}} \hspace{1cm}
+$\sbullet[.75] \hspace{0.2cm}${\href{https://drive.google.com/file/d/1wsiIIWnj80Tb_vkZ-GSFUyTznsDtXeH5/view?usp=sharing}{Frontend Developement - Testbook}} \hspace{1cm}
+
+
+
+
+\end{document}
+
+
+
+
+
